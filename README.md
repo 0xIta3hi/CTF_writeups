@@ -1,8 +1,7 @@
-````
 # 🚩 CTF Write-ups & Exploitation Scripts
 
-**Author:** [Your Name/Handle]  
-**Focus:** Web Security | Reverse Engineering | Binary Exploitation (Pwn)
+**Author:** 0xIta3hi 
+**Focus:** Web Security | Reverse Engineering | Binary Exploitation (Pwn) | Cloud Security
 
 ---
 
