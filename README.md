@@ -18,25 +18,25 @@ The goal is not just to store flags, but to document the **methodology**, **tool
 
 ## 📂 Repository Structure
 
-The repository is organized by CTF Event, then by Category:
+The repository is organized by CTF Event, with individual challenge write-ups and scripts:
 
 ```text
-├── CTF_Event_Name/
-│   ├── Web/
-│   │   ├── Challenge_Name/
-│   │   │   ├── solver.py       # Automated exploit script
-│   │   │   ├── analysis.md     # Detailed write-up
-│   │   │   └── artifacts/      # Source code or relevant files
-│   │   └── ...
-│   ├── Reverse_Engineering/
-│   │   ├── Challenge_Name/
-│   │   │   ├── decoder.py      # Decryption logic
-│   │   │   └── notes.md        # Static/Dynamic analysis logs
-│   │   └── ...
-│   └── Pwn/
-│       └── ...
-└── Scripts/                    # General purpose helper tools
-````
+CTF_writeups/
+├── BreachPointCTF/
+│   ├── 2_doors.md              # Cryptography challenge
+│   ├── 4_color_bomb.md         # Exploitation challenge
+│   ├── biased_stream.md        # Stream cipher cryptanalysis
+│   └── temp.py                 # Solver script
+├── patriotCTF/
+│   ├── PatriotCTF.md           # Event overview
+│   ├── license_key.md          # Binary analysis (Linux ELF)
+│   ├── windows_binary.md       # Binary analysis (Windows PE)
+│   ├── rust_level2.md          # Rust binary reversing
+│   ├── space_pirates_lvl1.md   # Asymmetric cipher (Level 1)
+│   ├── space_pirates_lvl3.md   # Asymmetric cipher (Level 3)
+│   └── the_hidden_map.md       # Steganography challenge
+└── README.md                   # This file
+```
 
 ---
 
@@ -86,13 +86,13 @@ The following tools are heavily utilized across the write-ups in this repo:
 
 ## 📝 Featured Write-ups
 
-### [PatriotCTF / Space Pirates]
+### BreachPointCTF
 
-- **Level 3 (Go Vault):** Reversing a custom 6-stage bitwise cipher in Go using Python.
+- **Biased Stream:** Cryptanalysis of a weakened LFSR-based stream cipher with bias leakage. Demonstrates MSB extraction and brute-force keystream recovery.
     
-- **License Key (Linux):** Using GDB to uncover hidden algebraic constraints in an ELF binary that `ltrace` missed.
+- **2 Doors:** Cryptographic challenge requiring key recovery and decryption.
     
-- **Memory Leak (Windows):** Exploiting a format string error to read raw memory pointers.
+- **4 Color Bomb:** Multi-layer exploitation challenge.
     
 
 _(More write-ups added regularly)_
