@@ -11,9 +11,6 @@ This repository serves as a comprehensive archive of my journey through various 
 
 The goal is not just to store flags, but to document the **methodology**, **tooling**, and **thought processes** used to break security mechanisms. 
 
-### 🏆 Recent Highlights
-* **PatriotCTF / Space Pirates:** Served as Lead Reverse Engineer, automating asymmetric cipher decryption and analyzing binaries to help propel the team rank from **#790 to #410**.
-
 ---
 
 ## 📂 Repository Structure
