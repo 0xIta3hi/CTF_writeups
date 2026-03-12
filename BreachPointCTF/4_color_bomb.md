@@ -1,7 +1,3 @@
-Here is the revised writeup. It specifically highlights your "Direct to Red" strategy, emphasizing how you bypassed the entire game loop (and the crash) to isolate the final puzzle immediately.
-
----
-
 # Writeup: The Red Phase (Clock Sync)
 
 **Category:** Reverse Engineering / Binary Exploitation **Difficulty:** Hard **Method:** Execution Flow Hijacking (GDB) & Algorithm Reversal
@@ -135,4 +131,5 @@ solve_red_phase()
     
 
 **Final Flag:** `BPCTF{KDG3DU32D38EVVXJM64}`
+
 
